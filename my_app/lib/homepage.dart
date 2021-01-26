@@ -74,6 +74,7 @@ class _HomePageState extends State<HomePage> {
                 child: Row(
                   children: [
                     CircleAvatar(
+                      //get the image data from local storage
                       backgroundImage: NetworkImage(myList2[index]['avatar']),
                     ),
                     Padding(
